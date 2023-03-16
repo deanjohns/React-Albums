@@ -1,3 +1,7 @@
+.wrapper {
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
 .circular-progress-container {
   position: absolute;
   width: 100%;
@@ -17,28 +21,56 @@
   width: 200px;
   max-width: 250px;
 }
-.potion-image {
-  width: 150px;
-  border-radius: 6px;
-  margin: 10px;
+.text-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-.board-label {
-  white-space: nowrap;
-  margin-right: 10px !important;
-  min-width: 140px;
-  font-weight: 300 !important;
+.header-main {
+  width: 100%;
+  box-shadow: 0px 8px 10px -10px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
 }
-.board-text {
-  margin-left: 10px;
-  margin-bottom: 10px;
-  width: 400px;
+.header-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.input-field input {
+.header-text {
+  font-size: 40px;
   padding: 10px;
-  width: 400px;
+  margin-left: 10px;
+  cursor: pointer;
 }
-.feedback-submit-button {
-  width: 200px;
-  margin: auto !important;
-  margin-bottom: 20px !important;
+.header-select-main {
+  padding: 10px;
+}
+.header-select {
+  margin-right: 10px;
+}
+.footer-main {
+  width: 100%;
+  box-shadow: 0px -8px 10px -10px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+}
+.footer-body {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-text {
+  padding: 10px;
+  margin-right: 10px;
+}
+.album-card-thumbnail {
+  padding: 10px;
+}
+.album-image {
+  width: 275px;
+  padding: 10px;
 }

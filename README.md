@@ -1,19 +1,23 @@
-# Elixirs
+# React - Albums
 
-This React application is to read all the Elixirs and shows all the details. And also takes user feedback.
+This is a React app to demonstrate the assignment given by EFutures
 
-## Installation and Run
-
-To run the application, follow the commands below after cloning the project
+## Clone the Application
 
 ```bash
-$ cd /elixirs
+git clone https://github.com/deanjohns/React-Albums.git
+```
+
+## Run the Application
+
+```bash
+cd /React-Albums
 ```
 
 ```bash
-$ npm install
+npm install
 ```
 
 ```bash
-$ npm start
+npm start
 ```
